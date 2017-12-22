@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   post '/food' do
-    # erb :food_form
+    params.to_s
   end
 
   <form method="POST" action="/food">
